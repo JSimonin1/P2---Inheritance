@@ -76,7 +76,7 @@ public class Event {
     public void setPointOfContact(String pointOfContact) { this.pointOfContact = pointOfContact; }
     
 // Getter/Setter Method - price
-    public String getPrice() { return price; }
+    public double getPrice() { return price; }
     public void setPrice(double price) { this.price = price; }
     
 // Method - toString

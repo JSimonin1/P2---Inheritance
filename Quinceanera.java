@@ -31,12 +31,12 @@ public class Quinceanera extends BirthdayParty {
     }
 
 // Getter/Setter Method - numberMaidsOfHonor
-    public String getNumberMaidsOfHonor() { return numberMaidsOfHonor; }
-    public void setNumberMaidsOfHonor(String numberMaidsOfHonor) { this.numberMaidsOfHonor = numberMaidsOfHonor; }
+    public int getNumberMaidsOfHonor() { return numberMaidsOfHonor; }
+    public void setNumberMaidsOfHonor(int numberMaidsOfHonor) { this.numberMaidsOfHonor = numberMaidsOfHonor; }
 
 // Getter Method - numberOfToasts
-    public String getNumberOfToasts() { return numberMaidsOfHonor; }
-    public void setNumberOfToasts(String numberOfToasts) { this.numberOfToasts = numberOfToasts; }
+    public int getNumberOfToasts() { return numberMaidsOfHonor; }
+    public void setNumberOfToasts(int numberOfToasts) { this.numberOfToasts = numberOfToasts; }
 
 // Getter/Setter Method - musicStyle
     public String getMusicStyle() { return musicStyle; }

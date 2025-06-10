@@ -31,8 +31,8 @@ public class BirthdayParty extends Event {
     }
 
 // Getter/Setter Method - age
-    public String getAge() { return age; }
-    public void setAge(String age) { this.age = age; }
+    public int getAge() { return age; }
+    public void setAge(int age) { this.age = age; }
 
 // Getter/Setter Method - cake
     public String getCake() { return cake; }
